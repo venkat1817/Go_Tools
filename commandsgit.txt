@@ -1,0 +1,14 @@
+git init  -----Initialized ---create one file (.git)
+git add filename 
+git add . ---current directory (.)
+git commit -m "first commit" ----- m --means-message it will add message,number ,email address
+git log --to see all commits
+git branch -M main   -->M--->means---->modifications
+git remote origin ssh url
+git push origin main ------>push to repository
+git status 
+git rm           ---------->Removes the specified file or files from the repository.
+git merge        ----------> Merges the specified branch into the current branch.
+git checkout     ---------->Switches to the specified branch.
+git clone        ---------->Clones a remote repository from the specified URL to a local directory.or bring the code remote repository to local directory that is called clone.
+git checkout -b branchname -------create a branch
