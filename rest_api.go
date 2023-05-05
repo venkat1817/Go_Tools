@@ -1,4 +1,4 @@
-/*package main
+package main
 
 import (
 	"encoding/json"
@@ -7,6 +7,7 @@ import (
 )
 
 // Define a Student struct to represent a student
+
 type Student struct {
 	ID      int    `json:"id"`
 	Name    string `json:"name"`
@@ -70,6 +71,7 @@ func main() {
 }
 
 // Helper function to extract the student ID from the URL path parameter
+
 func getIDFromURL(urlPath string) int {
 	// The URL path should be in the form "/students/{id}"
 	// Extract the ID as the last path segment
@@ -79,6 +81,7 @@ func getIDFromURL(urlPath string) int {
 }
 
 // Helper function to find the index of a student in the slice of students by ID
+
 func findStudentIndexByID(id int) int {
 	for i, student := range students {
 		if student.ID == id {
@@ -87,4 +90,3 @@ func findStudentIndexByID(id int) int {
 	}
 	return -1 // Student not found
 }
-*/
